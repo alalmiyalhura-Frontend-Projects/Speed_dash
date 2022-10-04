@@ -1,0 +1,93 @@
+// ======================== abstracts
+@import "abstracts/mixins";
+@import "abstracts/variables";
+// ======================== base
+@import "base/glopal";
+@import "base/animations";
+@import "base/typography";
+// ======================== components
+// *** UI
+@import "./components/UI/baseCard";
+@import "./components/UI/mainButton";
+@import "./components/UI/baseModel";
+// *** globals
+@import "./components/Global/breadcrumb";
+@import "./components/Global/chatCom";
+@import "./components/Global/tabs";
+@import "./components/Global/profile_card";
+// *** Tables
+@import "./components/Tables/tables";
+@import "./components/Tables/dialog";
+// *** Profile
+@import "./components/Profile/profileView";
+// *** Profile
+@import "./components/Products/ProductDetails";
+// *** Charts
+@import "./components/Charts/chart_component";
+// *** Loaders
+@import "./components/Loaders/second_loader";
+// ======================== layout
+// *** Navbar
+@import "./layout/Navbar/navbar";
+@import "./layout/Navbar/dropdown_menu";
+// *** Sidebar
+@import "./layout/sidebar";
+// ======================== pages
+// *** Contact Messages
+@import "pages/ContactMessages/contact_messages";
+//*** Transaction
+@import "pages/Transactions/transaction";
+@import "pages/Settings/settings";
+@import "pages/homePage";
+@import "pages/login";
+// *** Lesson
+@import "pages/Lesson/show_lesson";
+// *** Subject
+@import "pages/Subject/showSubject";
+// *** Orders
+@import "pages/Orders/order";
+// ======================== rtl
+@import "components/Auth/inputWrapper";
+// ======================== rtl
+@import "mainRtl.scss";
+.divider_new{
+  @include flexStartAlignment;
+  width: 100%;
+  position: relative;
+  margin-block: 1rem .5rem;
+  opacity: .8;
+  span{
+    font-size: .8rem;
+    text-align: start;
+    color: var(--mainColor-2);
+    border-radius: 15px;
+    padding: .1rem .4rem;
+    &::after{
+      content: '';
+      position: absolute;
+      border-bottom: 1px solid var(--mainColor-2);
+      left: 0;
+      right: 0;
+      bottom: -5px;
+      z-index: -1;
+      width: 95%;
+      margin: 0 auto;
+    }
+  }
+}
+
+.users_select{
+  .multiselect__element {
+      display: inline-block;
+      width: 48%;
+      border-bottom: 1px solid rgb(108 152 162 / 32%);
+      margin-inline: 1%;
+  }
+  *{
+    z-index: 9999;
+  }
+}
+
+body{
+  text-transform: capitalize;
+}

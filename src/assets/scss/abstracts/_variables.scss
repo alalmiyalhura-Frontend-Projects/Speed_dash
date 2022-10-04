@@ -1,0 +1,44 @@
+:root {
+  --mainColor-1: #626262;
+  --mainColor-1_1: #6262627a;
+  --mainColor-2: #6c98a2;
+  --mainColor-2_2: #20383d6b;
+
+  --mainBgColor: #eeeeee;
+  --cardBgColor: #fff;
+  --color-wight: #fff;
+  --color_light_wight: #ffffffbf;
+  --borderColor: #e4e4e4;
+  --blackColor: #000;
+  --formTitle: #2c2c2c;
+  --success: #55d775;
+  --danger: #ea5455;
+  --warning: #ff9f43;
+  --dark: #1e1e1e;
+  --default: #26bbae;
+  --extraSmall: 12px;
+  --Small: 15px;
+  --Meduim: 19px;
+  --Large: 24px;
+  --extraLarge: 29px;
+
+  &.darkTheme {
+    --mainColor-1: #c2c6dc;
+    --mainColor-1_1: #6262627a;
+    --mainColor-2: #6c98a2;
+    --mainColor-2_2: #20383d6b;
+
+    --mainBgColor: #161616;
+    --borderColor: #b6b6b61c;
+    --cardBgColor: #000;
+    --color-wight: rgb(36, 33, 33);
+    --color_light_wight: rgba(0, 0, 0, 0.822);
+    --blackColor: #fff;
+    --formTitle: #2c2c2c;
+    --success: #55d775;
+    --danger: #ea5455;
+    --warning: #ff9f43;
+    --dark: #1e1e1e;
+    --default: #26bbae;
+  }
+}

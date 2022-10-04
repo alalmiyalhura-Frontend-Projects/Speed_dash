@@ -1,0 +1,21 @@
+<template>
+  <section class="headSection">
+    <div class="d-flex">
+      <v-breadcrumbs divider=">>" :items="items">
+        <template v-slot:item="{ item }">
+          <router-link :to="item.href" :disabled="item.disabled">
+            {{ item.text.toUpperCase() }}
+          </router-link>
+        </template>
+      </v-breadcrumbs>
+    </div>
+  </section>
+</template>
+
+<script>
+export default {
+  props: ["items", "title"],
+};
+</script>
+
+<style lang="scss" scoped></style>

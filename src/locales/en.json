@@ -1,0 +1,639 @@
+{
+  "sidebar": [
+    {
+      "action": "fal fa-home",
+      "title": "stats",
+      "url": "/"
+    },
+
+    {
+      "action": "fal fa-th-large",
+      "parentUrl": "/home_screen",
+      "label": "Labels and Sliders",
+      "items": [
+        {
+          "action": "fal fa-images",
+          "items": [
+            {
+              "title": "view all",
+              "url": "/home_screen/homeFilters"
+            },
+            {
+              "title": "add new",
+              "url": "/home_screen/homeFilters/add"
+            }
+          ],
+          "title": "Main Categories"
+        },
+        {
+          "action": "fal fa-images",
+          "items": [
+            {
+              "title": "view all",
+              "url": "/home_screen/SubCategories"
+            },
+            {
+              "title": "add new",
+              "url": "/home_screen/SubCategories/add"
+            }
+          ],
+          "title": "subcategories"
+        }
+      ],
+      "title": "categories"
+    },
+    {
+      "action": "fal fa-images",
+      
+      "items": [
+        {
+          "title": "view all",
+          "url": "/sliders"
+        },
+        {
+          "title": "add new",
+          "url": "/sliders/add"
+        }
+      ],
+      "title": "master slider"
+    },
+
+    {
+      "action": "fal fa-users",
+      "label": "users and administrators",
+      "items": [
+        {
+          "title": "view all",
+          "url": "/clients"
+        },
+        {
+          "title": "add new",
+          "url": "/clients/add"
+        }
+      ],
+      "title": "Users"
+    },
+    {
+      "action": "fal fa-user-tie",
+      "items": [
+        {
+          "title": "view all",
+          "url": "/admins"
+        },
+        {
+          "title": "add new",
+          "url": "/admins/add"
+        }
+      ],
+      "title": "board managers"
+    },
+    {
+      "action": "fal fa-allergies",
+      "items": [
+        {
+          "title": "view all",
+          "url": "/permissions"
+        },
+        {
+          "title": "add new",
+          "url": "/permissions/add"
+        }
+      ],
+      "title": "permissions"
+    },
+
+    {
+      "action": "fal fa-globe-africa",
+      "label": "countries and cities",
+      "items": [
+        {
+          "title": "view all",
+          "url": "/countries"
+        },
+        {
+          "title": "add new",
+          "url": "/countries/add"
+        }
+      ],
+      "title": "countries"
+    },
+    {
+      "action": "fal fa-city",
+      "items": [
+        {
+          "title": "view all",
+          "url": "/cities"
+        },
+        {
+          "title": "add new",
+          "url": "/cities/add"
+        }
+      ],
+      "title": "Cities"
+    },
+    
+    {
+      "action": "fal fa-ad",
+      "label": "products and advertisements",
+      "items": [
+        {
+          "title": "view all",
+          "url": "/ades"
+        },
+        {
+          "title": "add new",
+          "url": "/ades/add"
+        }
+      ],
+      "title": "Products"
+    },
+    {
+      "action": "fal fa-images",
+      "items": [
+        {
+          "title": "view all",
+          "url": "/home_screen/newCollection"
+        },
+        {
+          "title": "add new",
+          "url": "/home_screen/newCollection/add"
+        }
+      ],
+      "title": "ads"
+    },
+
+    {
+      "action": "fal fa-database",
+      "label": "Packages and Promo Code",
+      "items": [
+        {
+          "title": "view all",
+          "url": "/packages"
+        },
+        {
+          "title": "add new",
+          "url": "/packages/add"
+        }
+      ],
+      "title": "Packages"
+    },
+    {
+      "action": "fal fa-tags",
+      "items": [
+        {
+          "title": "view all",
+          "url": "/promoCode"
+        },
+        {
+          "title": "add new",
+          "url": "/promoCode/add"
+        }
+      ],
+      "title": "promo code"
+    },
+
+    {
+      "action": "fal fa-chart-bar",
+      "label": "cases and shipping methods",
+      "items": [
+        {
+          "title": "view all",
+          "url": "/status"
+        },
+        {
+          "title": "add new",
+          "url": "/status/add"
+        }
+      ],
+      "title": "cases"
+    },
+    {
+      "action": "fal fa-truck-moving",
+      "items": [
+        {
+          "title": "view all",
+          "url": "/shipping"
+        },
+        {
+          "title": "add new",
+          "url": "/shipping/add"
+        }
+      ],
+      "title": "shipping methods"
+    },
+    
+    {
+      "action": "fal fa-atlas",
+      "label": "Frequently Asked Questions and Settings",
+      "items": [
+        {
+          "title": "view all",
+          "url": "/faqs"
+        },
+        {
+          "title": "add new",
+          "url": "/faqs/add"
+        }
+      ],
+      "title": "FAQ"
+    },
+    {
+      "action": "fal fa-cog",
+      "title": "General Settings",
+      "url": "/settings"
+    }
+  ],
+
+  "navbar": {
+    "notification": {
+      "topTitle_1": "new",
+      "topTitle_2": "application notifications",
+      "no_notifications": "No notifications yet!"
+    },
+    "userMenu": {
+      "profile": "profile",
+      "editProfile": "Edit Profile",
+      "chats": "conversations",
+      "logout": "logout"
+    },
+    "Dash_Name": "Control Panel"
+  },
+
+  "CRUD": {
+    "Create": {
+      "main_title": "add new"
+    },
+    "Update": {
+      "main_title": "modify data"
+    },
+    "Delete": "Deleted successfully."
+  },
+
+  "admins": {
+    "title": "board managers",
+    "data": {
+      "name": "the name",
+      "email": "e-mail",
+      "phone": "mobile number",
+      "password": "password",
+      "password_confiramtion": "reset password",
+      "country": "country"
+    },
+    "personalData": {
+      "title": "Personal Information"
+    }
+  },
+
+  "breadcrumb": {
+    "mainPage": "the main page",
+
+    "admins": {
+      "title": "Managers",
+      "all": "view all",
+      "add": "add manager",
+      "edit": "edit manager"
+    },
+
+    "clients": {
+      "title": "Users",
+      "all": "view all",
+      "add": "add a user",
+      "edit": "modify a user"
+    },
+
+    "permissions": {
+      "title": "authorities",
+      "all": "view all",
+      "add": "add validity",
+      "edit": "modify the validity"
+    },
+
+    "homeFilters": {
+      "title": "Main Categories",
+      "all": "view all",
+      "add": "add a rating",
+      "edit": "modify a rating"
+    },
+
+    "SubCategories": {
+      "title": "subcategories",
+      "all": "view all",
+      "add": "add a rating",
+      "edit": "modify a rating"
+    },
+
+    "ades": {
+      "title": "ads",
+      "all": "view all",
+      "add": "add an ad",
+      "edit": "edit ad"
+    },
+
+    "main_slider": {
+      "title": "master slider",
+      "all": "view all",
+      "add": "add slider",
+      "edit": "Modify Slider"
+    },
+
+    "newCollection": {
+      "title": "new collection",
+      "all": "view all",
+      "add": "add a collection",
+      "edit": "Edit Collection"
+    },
+
+    "countries": {
+      "title": "countries",
+      "all": "view all",
+      "add": "add a country",
+      "edit": "edit country"
+    },
+
+    "cities": {
+      "title": "Cities",
+      "all": "view all",
+      "add": "add a city",
+      "edit": "edit city"
+    },
+
+    "promo_code": {
+      "title": "promo code",
+      "all": "view all",
+      "add": "add promo code",
+      "edit": "Modify the promo code"
+    },
+
+    "status": {
+      "title": "cases",
+      "all": "view all",
+      "add": "add a case",
+      "edit": "edit status"
+    },
+
+    "faqs": {
+      "title": "FAQ",
+      "all": "view all",
+      "add": "add a question",
+      "edit": "Edit a question"
+    },
+
+    "shipping": {
+      "title": "shipping methods",
+      "all": "view all",
+      "add": "add a shipping method",
+      "edit": "modify the shipping method"
+    },
+
+    "packages": {
+      "title": "Packages",
+      "all": "view all",
+      "add": "add a package",
+      "edit": "modify the package"
+    },
+    "notifications": {
+      "title": "notifications",
+      "add": "send a notice",
+      "all": "view all"
+    }
+  },
+
+  "auth": {
+    "title": "login",
+    "desc": "login to control panel"
+  },
+
+  "forms": {
+    "labels": {
+      "question": "a question",
+      "productName": "product name",
+      "name": "the name",
+      "phone": "phone number",
+      "email": "e-mail",
+      "country": "country",
+      "city": "city",
+      "image": "select an image",
+      "images": "select images",
+      "desc": "description",
+      "password": "password",
+      "confirmPassword": "confirm password",
+      "birth_date": "date of birth",
+      "time": "time",
+      "date": "date",
+      "start_date": "start date",
+      "address": "address",
+      "title": "title",
+      "age": "age",
+      "userType": "user type",
+      "name_ar": "Name (Arabic)",
+      "name_en": "Name (English)",
+      "nationality_ar": "nationality (Arabic)",
+      "nationality_en": "nationality (English)",
+      "currency_en": "currency (Arabic)",
+      "currency_en": "currency (English)",
+      "phone_code": "Country Code",
+      "content_ar": "content (Arabic)",
+      "content": "content",
+      "content_en": "content (english)",
+      "title_ar": "title (in Arabic)",
+      "title_en": "title (in English)",
+      "status": "status",
+      "contenent": "continent",
+      "amountLeft": "amount available",
+      "shippingWay": "shipping method",
+      "isAcuation": "Add product as auction",
+      "isDirectSell": "Add product as direct sale",
+      "start_price": "starting price of the auction",
+      "sellPrice": "sell price",
+      "use_code": "the number of times used",
+      "discount": "discount percentage",
+      "end_date": "end date",
+      "ads_count": "the number of ads",
+      "question_ar": "the question is in Arabic",
+      "question_en": "the question is in English",
+      "answer_ar": "Answer in Arabic",
+      "answer_en": "Answer in English",
+      "price": "price",
+      "category": "Main Category",
+      "SubCategorie": "Sub-Category",
+      "permissions": "permissions",
+      "is_ban": "ban",
+      "is_active": "enabled",
+      "ban_reason": "reason for ban",
+      "code": "code",
+      "duration": "duration",
+      "bit_value": "valuesbidding",
+      "user": "the owner of the advertisement"
+    },
+    "validation": {
+      "image": "the image field is required",
+      "images": "The image field is required",
+      "desc": "Description field is required",
+      "name": "The name field is required",
+      "phone": "the phone field is required",
+      "email": "email is required",
+      "age": "The age field is required",
+      "password": "The password field is required",
+      "confirmPassword": "Confirm password is required",
+      "birth_date": "Birthdate field is required",
+      "time": "the time field is required",
+      "date": "date field is required",
+      "address": "The address field is required",
+      "title": "The title field is required",
+      "country": "the country field is required",
+      "city": "The city field is required",
+      "userType": "The user type field is required",
+      "name_ar": "The Arabic name field is required",
+      "name_en": "The English name field is required",
+      "nationality_ar": "Nationality field in Arabic is required",
+      "nationality_en": "The English nationality field is required",
+      "currency_en": "The Arabic currency field is required",
+      "currency_en": "The English currency field is required",
+      "phone_code": "The country code field is required",
+      "content_en": "The Arabic content field is required",
+      "content_en": "The English content field is required",
+      "title_ar": "The Arabic title field is required",
+      "title_en": "English title field is required",
+      "status": "status field is required",
+      "amountLeft": "the available quantity field is required",
+      "category": "main category field",
+      "SubCategorie": "The subcategory field is required",
+      "shippingWay": "The shipping method field is required",
+      "productRadio": "You must choose the type of product sale",
+      "start_price": "The starting auction price field is required",
+      "sellPrice": "The Selling Price field is required",
+      "question_ar": "The question field in Arabic is required",
+      "question_en": "The question field in English is required",
+      "answer_ar": "The answer field in Arabic is required",
+      "answer_en": "The answer field in English is required",
+      "ban_reason": "The ban reason field is required",
+      "code": "The code field is required",
+      "use": "Please enter the number of times you want to use",
+      "duration": "Please enter the duration",
+      "bit_value": "The Bid Value field is required",
+      "user": "Please choose the owner of the ad"
+    },
+    "submit": "save",
+    "login": "login"
+  },
+
+  "table": {
+    "loadingData": "Loading... Please wait",
+    "noData": "no data",
+    "singleSelect": "single selection",
+    "search": "search",
+    "lessThan": "less than",
+    "addNew": "add new",
+    "deleteSelected": "delete selected",
+    "deletedialog": {
+      "areYouSure": "Are you sure to delete?",
+      "cancel": "cancel",
+      "ok": "Ok"
+    }
+  },
+
+  "settings": {
+    "about": "who we are",
+    "contact": "contact us",
+    "faqs": "FAQ",
+    "policy": "privacy policy",
+    "terms": "Terms and Conditions",
+    "content": "Please add the following data",
+
+    "contactData": {
+      "phone": "phone number",
+      "email": "e-mail",
+      "whatsapp": "whatsapp number",
+      "facebook": "facebook link",
+      "twitter": "twitter link",
+      "instagram": "instagram link",
+      "fax": "fax number",
+      "vet_value": "added tax",
+      "youtube": "youtube link",
+      "snapchat": "snapchat link",
+      "search": "search the map",
+      "link_android": "link_android",
+      "link_ios": "Link Apple",
+      "footer_text_ar": "footer text (Arabic)",
+      "footer_text_en": "footer text (English)",
+      "validation": {
+        "phone": "Please enter the phone number",
+        "email": "Please enter an email",
+        "fax": "Please add the fax number",
+        "whatsapp": "please add your whatsapp number",
+      "facebook": "please add the facebook link",
+        "twitter": "Please add a Twitter link",
+        "instagram": "Please add an Instagram link",
+        "app_store_app": "Please add an App Store link",
+        "g_play_app": "Please add a Google Play link",
+        "youtube": "Please add a YouTube link",
+        "snapchat": "please add a snapchat link",
+        "vet_value": "Please add the added tax",
+        "link_android": "Please add the Android link",
+        "link_ios": "Please add an Apple link"
+      }
+    }
+  },
+
+  "products": {
+    "divider": {
+      "sizes": "sizes",
+      "additions": "additions"
+    },
+    "single": {
+      "images": "product images",
+      "productInfo": "Product Details",
+      "productName": "product name",
+      "productDesc": "product description",
+      "preparing_time": "preparing time",
+      "productCategory": "product classification",
+      "userInfo": "Customer Data",
+      "clientName": "client name",
+      "clientPhone": "phone number",
+      "clientEmail": "e-mail",
+      "sizes": "sizes",
+      "additions": "additions",
+      "sizeName": "the name",
+      "sizePrice": "price",
+      "rate": "rate the product",
+      "reviewCount": "the number of reviews",
+      "category": "main section",
+      "subCategory": "subCategory",
+      "productStatus": "product status",
+      "shippingWay": "shipping method",
+      "country": "country",
+      "city": "city",
+      "qty": "Available Quantity in Stock",
+      "second": "seconds",
+      "minute": "minutes",
+      "hour": "hours",
+      "day": "days",
+      "month": "Months",
+      "start_date": "auction start date",
+      "end_date": "auction end date",
+      "time_remaining": "time remaining",
+      "last_price": "last auction price",
+      "bid_value": "bid value",
+      "bid": "Auction details"
+    }
+  },
+
+  "addNew": "add new",
+  "send": "send",
+  "edit": "edit",
+  "showAll": "show all",
+  "addSuccess": "added successfully",
+  "editSuccess": "edited successfully",
+  "sendSuccess": "Send Successfully",
+  "deleteSuccess": "deleted successfully",
+  "globalErr": "Something went wrong",
+  "add": "add",
+  "delete": "delete",
+  "show": "show",
+  "inactive": "inactive",
+  "active": "enabled",
+  "ban": "ban",
+  "inban": "not prohibited",
+  "sendToAll": "sendToAll",
+  "selectUsers": "select one or more users"
+}

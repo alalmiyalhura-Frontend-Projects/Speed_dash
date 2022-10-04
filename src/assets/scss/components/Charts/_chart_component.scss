@@ -1,0 +1,24 @@
+.chart_component {
+    background-color: var(--cardBgColor);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+    padding: 20px;
+    align-items: center;
+    // max-width: fit-content;
+    main {
+        display: flex;
+        flex-direction: column;
+        .number {}
+        .title {
+            color: var(--mainColor-2);
+        }
+    }
+    .icon {
+        font-size: 40px;
+        margin-inline-start: 15px;
+        i {
+            color: var(--mainColor-2);
+        }
+    }
+}
